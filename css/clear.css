@@ -1,0 +1,28 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+ul,li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+input{
+	border: none;
+	outline: none;
+}
+
+.clearfix{
+	zoom: 1;
+}
+.clearfix::after{
+	display: block;
+	content: "";
+	clear: both;
+}
+.con{
+	width: 1230px;
+	margin: 0 auto;
+}

@@ -1,0 +1,51 @@
+.side{
+
+	width:992px;
+	height: 340px;
+	float: left;
+	
+}
+.side .sidewheel{
+	
+	
+	width: 992px;
+	/* background-color: rebeccapurple; */
+}
+ .sidewheel li{
+	float: left;
+}
+ .sidewheel li a{
+	display: block;
+	width: 238px;
+	height: 297px;
+	margin-left: 10px;
+	padding-top: 42px;
+	text-align: center;
+	border-top: 1px solid #ef3a3b;
+	background-color:#FFFFFF;
+}
+ .sidewheel li a img{
+	width: 150px;
+}
+.sidewheel li a span{
+	display: block;
+	margin-top: 10px;
+	font-size: 15px;
+}
+.sidewheel .sp1{
+	margin-top: 22px;
+}
+.sidewheel .sp2{
+	font-size: 12px;
+	color: #a29f9f;
+}
+ .sidewheel .sp3{
+	display: inline-block;
+	margin-top: 20px;
+	color: #FF6700;
+}
+ .sidewheel .sp4{
+	display: inline-block;
+	color: #a29f9f;
+	text-decoration: line-through;
+}

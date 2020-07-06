@@ -1,0 +1,211 @@
+body{
+    background-color: #f9f9f9;
+}
+.section{
+    width: 850px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    font-size: 14px;
+}
+.section .con{
+    width: 332px;
+}
+.section .logo{
+    width: 49px;
+    height: 49px;
+    margin: 0 auto;
+    background-color: #ff6800;
+}
+.section h1{
+    text-align: center;
+    font-weight: 400;
+    line-height: 120px;
+}
+/* 注册地区 */
+.section form{
+    position: relative;
+}
+.section .box{
+    width: 330px;
+    height: 40px;
+    border: 1px solid #e7e7e7;
+    margin-top: 5px;
+    cursor: pointer;
+}
+.section .box p:first-child{
+    float: left;
+    width: 279px;
+    height: 40px;
+    padding-left: 10px;
+    border-right: 1px solid #e7e7e7;
+    line-height: 40px;
+    color: #75747a;
+}
+.section .box .choose{
+    float: left;
+    width: 16px;
+    height: 16px;
+    background: url(../images/login_1.png) no-repeat ;
+    margin: 12px 0 0 12px;
+   
+    /* background-color: #ff6800; */
+}
+.section .box p.one{
+    background-position: -16px 0;
+}
+
+.section  .sel{
+    position: absolute;
+    z-index: 999;
+    display: none;
+    width: 330px;
+    height: 270px;
+    overflow: scroll;
+    overflow-x: hidden;
+    border: 1px solid #e7e7e7;
+    border-top: none;
+    background-color: #ffffff;
+}
+.section .sel input{
+    width: 290px;
+    height: 36px;
+    margin-left: 10px;
+    margin-top: 10px;
+    border: 1px solid #e7e7e7;
+   /* background-color: #ff6800; */
+}
+.section .sel .options{
+    margin-top: 5px;
+}
+.section .sel .options .letter{
+    height: 30px;
+    padding-left: 10px;
+    line-height: 30px;
+    background-color: #fbdecc;
+}
+.section .sel .options p{
+    height: 40px;
+    /* width: 310px; */
+    line-height: 40px;
+    padding-left: 10px;
+    /* background-color: #ff6800; */
+    border-top: 1px solid #e7e7e7;
+    cursor: pointer;
+}
+.section .sel .options p span{
+    float: right;
+    margin-right: 20px;
+    color: #aa9898;
+}
+.section .sel .options p:hover{
+    background-color: #e7e7e7;
+}
+.section form .hint1{
+    margin-top: 5px;
+    color: #75747a;
+}
+/* 手机号 */
+.section form .num{
+    margin-top: 10px;
+    color:  #75747a;
+} 
+.section .tel{
+    width: 330px;
+    height: 42px;
+    font-size: 0;
+    /* background-color: pink; */
+}
+.section .tel .phone{
+    display: inline-block;
+    position: relative;
+    width: 65px;
+    height: 40px;
+    border: 1px solid #e7e7e7;
+   border-right: none;
+   padding-left: 10px;
+    line-height: 40px;
+    color: #75747a;
+    font-size: 14px;
+    cursor: pointer;
+    /* background: red; */
+}
+.section .tel .phone::after{
+    position: absolute;
+    top: 16px;
+    left: 50px;
+    display: block;
+    content: "";
+    width: 0;
+    height: 0;
+    border: 8px solid rgba(0,0,0,0);
+    border-top-color: #75747a;
+}
+.section .tel .number{
+    width: 242px;
+    height: 40px;
+    padding-left: 10px;
+    border: 1px solid #e7e7e7;
+    vertical-align: top;
+    /* background-color: rebeccapurple; */
+}
+提示框
+.section .hint2{
+    color: #f51414;
+}
+/* 注册按钮 */
+.section .sub{
+    width: 330px;
+    height: 40px;
+    margin-top: 20px;
+    color: #ffffff;
+    background-color: #ff6800;
+}
+/* 底部 */
+.section .read{
+    margin-top: 90px ;
+    text-align: center;
+    color: #969696;
+}
+.section .read::after{
+    display: block;
+    content: "";
+    height: 40px;
+
+}
+.section .read a{
+    font-weight: 600;
+}
+.footer {
+   
+   padding: 20px 0 40px 0;
+}
+
+.footer ul {
+    width: 350px;
+    margin: 0 auto;
+}
+
+.footer ul li {
+    float: left;
+}
+
+.footer ul li a {
+    font-size: 14px;
+    color: #A29F9F;
+}
+
+.footer ul li span {
+    color: #A29F9F;
+    margin: 0 10px;
+}
+
+.footer p {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 14px;
+    color: #A29F9F;
+}
+
+.footer p a {
+    color: #A29F9F;
+}

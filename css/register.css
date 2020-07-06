@@ -1,0 +1,219 @@
+
+.header .con {
+    padding-top: 25px;
+    width: 1230px;
+    margin: 0 auto;
+}
+.header  .con a {
+    display: block;
+}
+.header  .con .le {
+    width: 49px;
+    height: 49px;
+    background-color: #FF6700;
+    float: left;
+}
+.header  .rig {
+    float: left;
+    margin-left: 20px;
+}
+
+.rig p:first-child {
+    font: bold 30px/30px "microsoft yahei";
+
+}
+
+.rig p:last-child {
+    font: 12px/12px "microsoft yahei";
+    margin-top: 6px;
+
+}
+.section{
+    position: relative;
+    width: 100%;
+   
+}
+.section .bg{
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    height: 588px;
+    background: url(../images/register_banner1.jpg) no-repeat top center;
+    
+}
+.section .con {
+    position: relative;
+    height: 588px;
+    /* background-color: blue; */
+    margin-top: 20px;
+}
+
+.section .wrap {
+    position: absolute;
+    z-index: 3;
+    left: 780px;
+    top: 40px;
+    width: 350px;
+    height: 508px;
+    padding: 20px 30px;
+    background-color:#FFFFFF;
+}
+
+.wrap .one,
+.wrap .two {
+    width: 160px;
+    font: 22px/40px "microsoft yahei";
+    color: #A29F9F;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+}
+.wrap .one:hover {
+    color: #FF6700;
+}
+
+.wrap .on {
+    color: #FF6700;
+}
+.wrap .for{
+    position: absolute;
+    display: none;
+    width: 350px;
+    height: 450px;
+    text-align: center;
+    /* background-color: aqua; */
+}
+/* 扫码登录 */
+.section  .for img{
+    margin-top: 130px;
+}
+
+.wrap input {
+    width: 340px;
+    height: 50px;
+    margin-top: 20px;
+    padding-left: 10px;
+    font-size: 16px;
+    border: 1px solid #A29F9F;
+    
+}
+
+.wrap .btn {
+    width: 350px;
+    background-color: #FF6700;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.other {
+    font-size: 14px;
+    margin-top: 5px;
+
+}
+.section .other p:first-child{
+    float: left;
+}
+
+.section .other p:first-child a {
+    color: #FF6700;
+}
+.section .other p:last-child{
+    float: right;
+    color: #A29F9F;
+}
+.section .other p:last-child a {
+    color: #A29F9F;
+}
+
+.section .other p a:hover {
+    color: #FF6700;
+}
+.section .wrap .bot {
+    margin-top: 120px;
+}
+
+.section .wrap .bot div:first-child hr {
+    float: left;
+    width: 128px;
+    border: 1px solid #A29F9F;
+
+}
+
+.section .bot div:first-child p {
+    float: left;
+    margin-top: -10px;
+    font-size: 14px;
+    color: #A29F9F;
+}
+
+/* qq登录等 */
+.section .bot .qita{
+        width: 350px;
+        /* background-color: pink; */
+        padding-top: 30px;
+        text-align: center;
+}
+.section .bot .qita a{
+        display: inline-block;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        margin-left: 30px;
+        /* background-color: red; */
+        /* background: url(../images/denglv.jpg) no-repeat; */
+        /* margin-left: 20px; */
+ }	
+ .section .bot .qita a:first-child{
+    margin-left: 0;
+     background-color: #008ad0;
+ }
+ .section .bot .qita a:nth-child(2){
+    background-color: #cd3528;
+}
+.section .bot .qita a:nth-child(3){
+    background-color: #00abe8;
+}
+.section .bot .qita a:nth-child(4){
+    background-color: #00cf2a;
+}
+.section .open{
+    font-size: 14px;
+    color: #A29F9F;
+    margin-top: 5px;
+}
+.section .open span{
+    color: #FF6700;
+}
+.footer {
+    width: 100%;
+   padding: 100px 0 40px 0;
+}
+
+.footer ul {
+    width: 350px;
+    margin: 0 auto;
+}
+
+.footer ul li {
+    float: left;
+}
+
+.footer ul li a {
+    font-size: 14px;
+    color: #A29F9F;
+}
+
+.footer ul li span {
+    color: #A29F9F;
+    margin: 0 10px;
+}
+
+.footer p {
+    text-align: center;
+    font-size: 14px;
+    color: #A29F9F;
+}
+
+.footer p a {
+    color: #A29F9F;
+}
